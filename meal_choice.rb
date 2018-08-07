@@ -10,17 +10,17 @@ puts snacks("Swedish fish")
 ## This returns "Any time, is the right time for Sweedish fish!"
 
 # call your methods here
-def breakfast (morning_food="frosted flakes")
+def breakfast(morning_food="frosted flakes")
   puts "Morning is the best time for #{morning_food}!"
 end
 breakfast("pancakes")
 
-def lunch (afternoon_food="grilled cheese")
+def lunch(afternoon_food="grilled cheese")
   puts "Afternoon is the best time for #{afternoon_food}!"
 end
 lunch("peanut butter")
 
-def dinner (night_food="salmon")
+def dinner(night_food="salmon")
   puts "Night is the best time for #{night_food}!"
 end
 dinner("broccoli")
