@@ -21,7 +21,10 @@ def breakfast (morning_food="frosted flakes")
 end
 breakfast("scrambled eggs")
 
-
+def lunch (afternoon_food="")
+  puts "Morning is the best tie for #{afternoon_food}!"
+end
+breakfast("scrambled eggs")
 
 # Call your methods without any arguments here
 puts snacks
