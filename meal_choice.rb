@@ -13,17 +13,17 @@ puts snacks("Swedish fish")
 def breakfast (morning_food="frosted flakes")
   puts "Morning is the best time for #{morning_food}!"
 end
-breakfast()
+breakfast("pancakes")
 
 def lunch (afternoon_food="grilled cheese")
   puts "Afternoon is the best time for #{afternoon_food}!"
 end
-lunch()
+lunch("peanut butter")
 
 def dinner (night_food="salmon")
   puts "Night is the best time for #{night_food}!"
 end
-dinner()
+dinner("broccoli")
 
 # Call your methods without any arguments here
 puts snacks
