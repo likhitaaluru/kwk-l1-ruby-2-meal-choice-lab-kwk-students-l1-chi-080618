@@ -29,7 +29,7 @@ lunch("tacos")
 def dinner (night_food="salmon")
   puts "Night is the best time for #{night_food}!"
 end
-night("pasta")
+dinner("pasta")
 
 # Call your methods without any arguments here
 puts snacks
