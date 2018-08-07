@@ -22,12 +22,12 @@ end
 breakfast("scrambled eggs")
 
 def lunch (afternoon_food="grilled cheese")
-  puts "Morning is the best time for #{afternoon_food}!"
+  puts "Afternoon is the best time for #{afternoon_food}!"
 end
 lunch("tacos")
 
 def dinner (night_food="salmon")
-  puts "Morning is the best time for #{night_food}!"
+  puts "Night is the best time for #{night_food}!"
 end
 night("pasta")
 
