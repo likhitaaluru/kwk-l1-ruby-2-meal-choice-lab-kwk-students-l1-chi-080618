@@ -17,7 +17,11 @@ puts snacks("Swedish fish")
 
 # call your methods here
 def breakfast (morning_food="frosted flakes")
-  
+  puts "Morning is the best tie for #{morning_food}!"
+end
+breakfast("scrambled eggs")
+
+
 
 # Call your methods without any arguments here
 puts snacks
